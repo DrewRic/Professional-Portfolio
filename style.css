@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(2, 70, 33);
+    position: relative;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    min-width: none;
+    list-style-type: none;
+    padding: 1.5rem;
+    margin: .2rem;
+    font-size: 1.5rem;
+    overflow: hidden;
+    float: right;
+    line-height: 0rem;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    color: #fff;
+    display: block;
+    padding: 1rem;
+}
+  
+nav a:hover {
+    color: var(--light);
+}
+
+.banner-area {
+    background-image: url(https://i.pinimg.com/736x/1b/bf/23/1bbf23556515eabf7529ae6c3b54570c.jpg);
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidenav {
+    width: 15rem;
+    height: 10rem;
+    font-size: 30px;
+    color: #1e6303;
+    float: left;
+}
+
+.leftnav {
+    width: 70rem;
+    height: flex;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #1e6303;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.contactnav {
+    width: 70rem;
+    height: flex;
+    padding-left: 20px;
+    word-spacing: 20px;
+    font-size: 20px;
+    color: #1e6303;
+    float: right;
+    font: bolder;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap: 8px;
+}
+  
+#plantwallimg img {
+    aspect-ratio: 1;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
